@@ -9,23 +9,23 @@ export const metadata: Metadata = {
 
 export default function InteriorDetailingPage() {
   return (
-    <section className="relative py-16 lg:py-24 bg-dark">
+    <section className="relative py-16 lg:py-24 bg-white">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 right-10 w-72 h-72 bg-primary rounded-full blur-3xl" />
       </div>
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
-          <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">Interior Detailing</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Interior Detailing</h1>
           <p className="text-primary font-bold text-xl drop-shadow-[0_0_14px_rgba(139,26,26,0.7)]">Starting at $90</p>
-          <p className="text-gray-400 mt-2">Final pricing depends on vehicle size and condition.</p>
-          <p className="text-gray-300 mt-1">Most vehicles typically fall between $120–$180.</p>
+          <p className="text-gray-500 mt-2">Final pricing depends on vehicle size and condition.</p>
+          <p className="text-gray-600 mt-1">Most vehicles typically fall between $120–$180.</p>
         </div>
 
-        <p className="text-gray-300 text-lg leading-relaxed mb-10">
+        <p className="text-gray-600 text-lg leading-relaxed mb-10">
           Full Interior Clean and Restore Service. The interior of your vehicle is vacuumed including the trunk. Then we remove all floor mats. Next, we shampoo all the carpeting, upholstery, clean the door panels, compartments, headliner, ashtrays, instruments, knobs, and trim. The leather is cleaned and conditioned (if applicable). Air vents are dusted and the dashboard is cleaned. All fabrics are protected with Scotch Guard protection. All windows are cleaned on the inside and left spotless. Even the smallest spots you thought would be impossible to touch, we make sure of it. We also remove any unwanted odors and leave your vehicle smelling fresh.
         </p>
 
-        <h2 className="text-2xl font-bold text-white mb-6">What&apos;s Included</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">What&apos;s Included</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
           {[
             "Complete interior vacuum including trunk",
@@ -41,7 +41,7 @@ export default function InteriorDetailingPage() {
             "Ashtray cleaning",
             "Odor elimination — left smelling fresh",
           ].map((item) => (
-            <div key={item} className="flex items-start gap-2 text-gray-300">
+            <div key={item} className="flex items-start gap-2 text-gray-700">
               <Check className="w-5 h-5 text-primary shrink-0 mt-0.5" />
               <span>{item}</span>
             </div>
@@ -58,12 +58,12 @@ export default function InteriorDetailingPage() {
         </div>
 
                 {/* Other Services */}
-        <div className="mt-20 pt-12 border-t border-white/10">
-          <h3 className="text-xl font-bold text-white mb-6 text-center">Explore Our Other Services</h3>
+        <div className="mt-20 pt-12 border-t border-gray-200">
+          <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">Explore Our Other Services</h3>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10">
-            <Link href="/services/full-detail-package" className="text-gray-400 hover:text-primary transition text-lg">Complete Detail Package →</Link>
-            <Link href="/services/exterior-detailing" className="text-gray-400 hover:text-primary transition text-lg">Exterior Detailing →</Link>
-            <Link href="/services/paint-protection" className="text-gray-400 hover:text-primary transition text-lg">Paint Enhancement & Protection →</Link>
+            <Link href="/services/full-detail-package" className="text-gray-500 hover:text-primary transition text-lg">Complete Detail Package →</Link>
+            <Link href="/services/exterior-detailing" className="text-gray-500 hover:text-primary transition text-lg">Exterior Detailing →</Link>
+            <Link href="/services/paint-protection" className="text-gray-500 hover:text-primary transition text-lg">Paint Enhancement & Protection →</Link>
           </div>
         </div>
       </div>

@@ -9,22 +9,22 @@ export const metadata: Metadata = {
 
 export default function PaintProtectionPage() {
   return (
-    <section className="relative py-16 lg:py-24 bg-dark">
+    <section className="relative py-16 lg:py-24 bg-white">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 right-10 w-72 h-72 bg-primary rounded-full blur-3xl" />
       </div>
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
-          <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">Paint Enhancement &amp; Protection</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Paint Enhancement &amp; Protection</h1>
           <p className="text-primary font-bold text-xl drop-shadow-[0_0_14px_rgba(139,26,26,0.7)]">From $30</p>
-          <p className="text-gray-400 mt-2">Add these to any detail or book standalone.</p>
+          <p className="text-gray-500 mt-2">Add these to any detail or book standalone.</p>
         </div>
 
-        <p className="text-gray-300 text-lg leading-relaxed mb-10">
+        <p className="text-gray-600 text-lg leading-relaxed mb-10">
           Take your detail to the next level with our enhancement and protection add-ons. From a full wax seal to compound buffing and engine bay cleaning — we&apos;ve got you covered.
         </p>
 
-        <h2 className="text-2xl font-bold text-white mb-6">Available Services</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Available Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
           {[
             { name: "Full Wax", price: "$35" },
@@ -32,8 +32,8 @@ export default function PaintProtectionPage() {
             { name: "Engine Detail", price: "$60–$100" },
             { name: "Floormat Replacement", price: "$30" },
           ].map((addon) => (
-            <div key={addon.name} className="flex items-center justify-between p-5 rounded-lg bg-dark-lighter border border-white/5">
-              <span className="text-white font-medium text-lg">{addon.name}</span>
+            <div key={addon.name} className="flex items-center justify-between p-5 rounded-lg bg-gray-50 border border-gray-200">
+              <span className="text-gray-900 font-medium text-lg">{addon.name}</span>
               <span className="text-primary font-bold text-lg">{addon.price}</span>
             </div>
           ))}
@@ -49,12 +49,12 @@ export default function PaintProtectionPage() {
         </div>
 
                 {/* Other Services */}
-        <div className="mt-20 pt-12 border-t border-white/10">
-          <h3 className="text-xl font-bold text-white mb-6 text-center">Explore Our Other Services</h3>
+        <div className="mt-20 pt-12 border-t border-gray-200">
+          <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">Explore Our Other Services</h3>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10">
-            <Link href="/services/full-detail-package" className="text-gray-400 hover:text-primary transition text-lg">Complete Detail Package →</Link>
-            <Link href="/services/interior-detailing" className="text-gray-400 hover:text-primary transition text-lg">Interior Detailing →</Link>
-            <Link href="/services/exterior-detailing" className="text-gray-400 hover:text-primary transition text-lg">Exterior Detailing →</Link>
+            <Link href="/services/full-detail-package" className="text-gray-500 hover:text-primary transition text-lg">Complete Detail Package →</Link>
+            <Link href="/services/interior-detailing" className="text-gray-500 hover:text-primary transition text-lg">Interior Detailing →</Link>
+            <Link href="/services/exterior-detailing" className="text-gray-500 hover:text-primary transition text-lg">Exterior Detailing →</Link>
           </div>
         </div>
       </div>

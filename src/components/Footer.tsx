@@ -5,7 +5,7 @@ import { locations } from "@/data/locations";
 
 export default function Footer() {
   return (
-    <footer className="bg-dark-light border-t border-white/10 text-gray-400">
+    <footer className="bg-gray-50 border-t border-gray-200 text-gray-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Company Info */}
@@ -13,12 +13,12 @@ export default function Footer() {
             <div className="mb-4">
               <Image src="/logoheader.png" alt="DR Detail" width={170} height={100} className="h-16 w-auto" />
             </div>
-            <p className="text-sm mb-4">Professional auto detailing services in Conshohocken, PA and Montgomery County. We bring your vehicle back to life.</p>
+            <p className="text-sm mb-4 text-gray-600">Professional auto detailing services in Conshohocken, PA and Montgomery County. We bring your vehicle back to life.</p>
             <div className="space-y-2 text-sm">
               <div className="flex items-start gap-2"><MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" /> <span>65 Poplar St<br />Conshohocken, PA 19428</span></div>
               <div className="flex items-center gap-2"><Clock className="w-4 h-4 text-primary" /> Mon–Sun: 8 AM – 6 PM</div>
-              <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary" /> <a href="tel:+16109419000" className="hover:text-primary transition">(610) 941-9000</a></div>
-              <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary" /> <a href="mailto:info@drdetailpa.com" className="hover:text-primary transition">info@drdetailpa.com</a></div>
+              <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary" /> <a href="tel:+16109419000" className="text-gray-600 hover:text-primary transition">(610) 941-9000</a></div>
+              <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary" /> <a href="mailto:info@drdetailpa.com" className="text-gray-600 hover:text-primary transition">info@drdetailpa.com</a></div>
             </div>
             <div className="mt-4">
               <a href="https://www.instagram.com/drdetailpa/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-gray-400 hover:text-primary transition">
@@ -30,41 +30,41 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-gray-900 font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="hover:text-primary transition">Home</Link></li>
-              <li><Link href="/about" className="hover:text-primary transition">About Us</Link></li>
-              <li><Link href="/services" className="hover:text-primary transition">Services</Link></li>
-              <li><Link href="/contact" className="hover:text-primary transition">Contact</Link></li>
+              <li><Link href="/" className="text-gray-600 hover:text-primary transition">Home</Link></li>
+              <li><Link href="/about" className="text-gray-600 hover:text-primary transition">About Us</Link></li>
+              <li><Link href="/services" className="text-gray-600 hover:text-primary transition">Services</Link></li>
+              <li><Link href="/contact" className="text-gray-600 hover:text-primary transition">Contact</Link></li>
             </ul>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="text-white font-semibold mb-4">Our Services</h4>
+            <h4 className="text-gray-900 font-semibold mb-4">Our Services</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/services/full-detail-package" className="hover:text-primary transition">Complete Detail Package</Link></li>
-              <li><Link href="/services/interior-detailing" className="hover:text-primary transition">Auto Detailing</Link></li>
-              <li><Link href="/services/paint-protection" className="hover:text-primary transition">Paint Correction</Link></li>
-              <li><Link href="/services/exterior-detailing" className="hover:text-primary transition">Ceramic Coating</Link></li>
-              <li><Link href="/services/exterior-detailing" className="hover:text-primary transition">Car Washing &amp; Window Tinting</Link></li>
+              <li><Link href="/services/full-detail-package" className="text-gray-600 hover:text-primary transition">Complete Detail Package</Link></li>
+              <li><Link href="/services/interior-detailing" className="text-gray-600 hover:text-primary transition">Auto Detailing</Link></li>
+              <li><Link href="/services/paint-protection" className="text-gray-600 hover:text-primary transition">Paint Correction</Link></li>
+              <li><Link href="/services/exterior-detailing" className="text-gray-600 hover:text-primary transition">Ceramic Coating</Link></li>
+              <li><Link href="/services/exterior-detailing" className="text-gray-600 hover:text-primary transition">Car Washing &amp; Window Tinting</Link></li>
             </ul>
           </div>
 
           {/* Areas Served */}
           <div>
-            <h4 className="text-white font-semibold mb-4">Areas Served</h4>
+            <h4 className="text-gray-900 font-semibold mb-4">Areas Served</h4>
             <ul className="space-y-2 text-sm">
               {locations.map((loc) => (
                 <li key={loc.slug}>
-                  <Link href={`/${loc.slug}`} className="hover:text-primary transition">{loc.name}, PA</Link>
+                  <Link href={`/${loc.slug}`} className="text-gray-600 hover:text-primary transition">{loc.name}, PA</Link>
                 </li>
               ))}
             </ul>
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/10 text-center text-sm text-gray-500">
+        <div className="mt-12 pt-8 border-t border-gray-200 text-center text-sm text-gray-500">
           <p>© {new Date().getFullYear()} DR Detail. All rights reserved.</p>
         </div>
       </div>

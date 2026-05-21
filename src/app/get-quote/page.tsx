@@ -77,15 +77,15 @@ export default function GetQuotePage() {
 
   if (submitted) {
     return (
-      <div className="min-h-screen bg-dark flex flex-col">
+      <div className="min-h-screen bg-white flex flex-col">
         <Header />
-        <div className="flex-1 flex items-center justify-center px-4">
+        <div className="flex-1 flex items-center justify-center px-4 bg-white">
           <div className="max-w-md mx-auto text-center">
-            <div className="w-20 h-20 rounded-full bg-green-900/50 border border-green-500/30 flex items-center justify-center mx-auto mb-6">
+            <div className="w-20 h-20 rounded-full bg-green-50 border border-green-400 flex items-center justify-center mx-auto mb-6">
               <Check className="w-10 h-10 text-green-400" />
             </div>
-            <h2 className="text-2xl font-bold text-white mb-3">Quote Request Received!</h2>
-            <p className="text-gray-400 mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">Quote Request Received!</h2>
+            <p className="text-gray-600 mb-8">
               Thanks for reaching out. A member of our team will contact you shortly with your personalized quote.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -103,7 +103,7 @@ export default function GetQuotePage() {
   }
 
   return (
-    <div className="min-h-screen bg-dark flex flex-col">
+    <div className="min-h-screen bg-white flex flex-col">
       <Header />
 
       {/* Progress bar */}

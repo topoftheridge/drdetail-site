@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <>
       <div className="relative overflow-hidden">
-        <Image src="/aboutcard1.jpg" alt="" fill className="object-cover object-[70%_70%] sm:object-[center_70%]" priority />
+        <Image src="/drdetailabouthero.png" alt="" fill className="object-cover object-[70%_70%] sm:object-[center_70%]" priority />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative">
           <Hero
@@ -32,17 +32,17 @@ export default function AboutPage() {
       </div>
 
       {/* About Content */}
-      <section className="py-16 lg:py-24 bg-dark">
+      <section className="py-16 lg:py-24 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4">
+              <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
                 Auto Detailing in Conshohocken, PA | <span className="text-primary">DR Detail</span>
               </h2>
-              <p className="text-accent font-medium mb-8 text-lg">
+              <p className="text-primary font-medium mb-8 text-lg">
                 DR Detail provides professional auto detailing services across Montgomery County, Pennsylvania, helping drivers restore, protect, and maintain their vehicles inside and out.
               </p>
-              <div className="prose prose-invert max-w-none text-gray-300 leading-relaxed space-y-4">
+              <div className="prose prose-invert max-w-none text-gray-600 leading-relaxed space-y-4">
                 <p>
                   Based in Conshohocken, we proudly serve surrounding areas including Plymouth Meeting, Norristown, Blue Bell, Ambler, and nearby communities. Our detailing services go far beyond a basic car wash. We specialize in auto detailing, paint correction, ceramic coating, car washing, and window tinting — removing dirt, stains, and buildup while restoring your vehicle&apos;s appearance and protecting it for the long term.
                 </p>
@@ -53,21 +53,21 @@ export default function AboutPage() {
             </div>
 
             {/* IMAGE SPOT 1 */}
-            <div className="rounded-xl overflow-hidden border border-white/10 bg-dark-lighter aspect-[4/3] flex items-center justify-center">
+            <div className="rounded-xl overflow-hidden border border-gray-200 bg-gray-100 aspect-[4/3] flex items-center justify-center">
               {/* <Image src="/about-1.jpg" alt="DR Detail work" width={600} height={450} className="object-cover w-full h-full" /> */}
-              <span className="text-gray-600 text-sm">[Image Placeholder — about-1.jpg]</span>
+              <span className="text-gray-400 text-sm">[Image Placeholder — about-1.jpg]</span>
             </div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mt-16">
             {/* IMAGE SPOT 2 */}
-            <div className="rounded-xl overflow-hidden border border-white/10 bg-dark-lighter aspect-[4/3] flex items-center justify-center order-2 lg:order-1">
+            <div className="rounded-xl overflow-hidden border border-gray-200 bg-gray-100 aspect-[4/3] flex items-center justify-center order-2 lg:order-1">
               {/* <Image src="/about-2.jpg" alt="DR Detail team at work" width={600} height={450} className="object-cover w-full h-full" /> */}
-              <span className="text-gray-600 text-sm">[Image Placeholder — about-2.jpg]</span>
+              <span className="text-gray-400 text-sm">[Image Placeholder — about-2.jpg]</span>
             </div>
 
             <div className="order-1 lg:order-2">
-              <div className="prose prose-invert max-w-none text-gray-300 leading-relaxed space-y-4">
+              <div className="prose prose-invert max-w-none text-gray-600 leading-relaxed space-y-4">
                 <p>
                   At DR Detail, we focus on convenience, quality, and consistent results — making it easy for Montgomery County drivers to keep their vehicles looking their best.
                 </p>
@@ -81,20 +81,20 @@ export default function AboutPage() {
       </section>
 
       {/* Work Gallery */}
-      <section className="py-16 lg:py-24 bg-dark-light">
+      <section className="py-16 lg:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-white text-center mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 text-center mb-4">
             Our <span className="text-primary">Work</span>
           </h2>
-          <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
+          <p className="text-gray-500 text-center mb-12 max-w-2xl mx-auto">
             A look at some of the vehicles we&apos;ve brought back to life.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
-              <div key={i} className="rounded-lg overflow-hidden border border-white/10 bg-dark-lighter aspect-square flex items-center justify-center">
+              <div key={i} className="rounded-lg overflow-hidden border border-gray-200 bg-gray-100 aspect-square flex items-center justify-center">
                 {/* <Image src={`/gallery-${i}.jpg`} alt={`DR Detail work ${i}`} width={400} height={400} className="object-cover w-full h-full" /> */}
-                <span className="text-gray-600 text-xs">[gallery-{i}.jpg]</span>
+                <span className="text-gray-400 text-xs">[gallery-{i}.jpg]</span>
               </div>
             ))}
           </div>
@@ -102,9 +102,9 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 lg:py-20 bg-dark">
+      <section className="py-16 lg:py-20 bg-white">
         <div className="max-w-2xl mx-auto text-center px-4">
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Ready to See the <span className="text-primary">Difference</span>?
           </h2>
           <p className="text-gray-400 mb-6">Get in touch today for a free quote.</p>

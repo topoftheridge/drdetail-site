@@ -9,23 +9,23 @@ export const metadata: Metadata = {
 
 export default function ExteriorDetailingPage() {
   return (
-    <section className="relative py-16 lg:py-24 bg-dark">
+    <section className="relative py-16 lg:py-24 bg-white">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 right-10 w-72 h-72 bg-primary rounded-full blur-3xl" />
       </div>
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
-          <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">Exterior Detailing</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Exterior Detailing</h1>
           <p className="text-primary font-bold text-xl drop-shadow-[0_0_14px_rgba(139,26,26,0.7)]">Starting at $90</p>
-          <p className="text-gray-400 mt-2">Final pricing depends on vehicle size and condition.</p>
-          <p className="text-gray-300 mt-1">Most vehicles typically fall between $120–$180.</p>
+          <p className="text-gray-500 mt-2">Final pricing depends on vehicle size and condition.</p>
+          <p className="text-gray-600 mt-1">Most vehicles typically fall between $120–$180.</p>
         </div>
 
-        <p className="text-gray-300 text-lg leading-relaxed mb-10">
+        <p className="text-gray-600 text-lg leading-relaxed mb-10">
           Full exterior hand car wash, power-wash and complete foam coverage, including cleaning of wheels, tires, and wheel wells. We remove all bugs and tar. Dedicated treatment to the exterior of the vehicle, and polish. Then we apply wax and remove any tough spots by hand. All chrome is polished and the rubber is cleaned. Tires are dressed for a high luster. All windows are cleaned on the exterior of the car.
         </p>
 
-        <h2 className="text-2xl font-bold text-white mb-6">What&apos;s Included</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">What&apos;s Included</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
           {[
             "Full exterior hand car wash",
@@ -39,7 +39,7 @@ export default function ExteriorDetailingPage() {
             "Tire dressing for high luster",
             "Exterior window cleaning",
           ].map((item) => (
-            <div key={item} className="flex items-start gap-2 text-gray-300">
+            <div key={item} className="flex items-start gap-2 text-gray-700">
               <Check className="w-5 h-5 text-primary shrink-0 mt-0.5" />
               <span>{item}</span>
             </div>
@@ -56,12 +56,12 @@ export default function ExteriorDetailingPage() {
         </div>
 
                 {/* Other Services */}
-        <div className="mt-20 pt-12 border-t border-white/10">
-          <h3 className="text-xl font-bold text-white mb-6 text-center">Explore Our Other Services</h3>
+        <div className="mt-20 pt-12 border-t border-gray-200">
+          <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">Explore Our Other Services</h3>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-10">
-            <Link href="/services/full-detail-package" className="text-gray-400 hover:text-primary transition text-lg">Complete Detail Package →</Link>
-            <Link href="/services/interior-detailing" className="text-gray-400 hover:text-primary transition text-lg">Interior Detailing →</Link>
-            <Link href="/services/paint-protection" className="text-gray-400 hover:text-primary transition text-lg">Paint Enhancement & Protection →</Link>
+            <Link href="/services/full-detail-package" className="text-gray-500 hover:text-primary transition text-lg">Complete Detail Package →</Link>
+            <Link href="/services/interior-detailing" className="text-gray-500 hover:text-primary transition text-lg">Interior Detailing →</Link>
+            <Link href="/services/paint-protection" className="text-gray-500 hover:text-primary transition text-lg">Paint Enhancement & Protection →</Link>
           </div>
         </div>
       </div>
