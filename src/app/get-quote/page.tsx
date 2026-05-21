@@ -89,8 +89,8 @@ export default function GetQuotePage() {
               Thanks for reaching out. A member of our team will contact you shortly with your personalized quote.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="tel:+16107260151" className="inline-flex items-center justify-center bg-primary text-white font-bold px-6 py-3 rounded-lg hover:bg-primary-dark transition">
-                Call (610) 726-0151
+              <a href="tel:+16109419000" className="inline-flex items-center justify-center bg-primary text-white font-bold px-6 py-3 rounded-lg hover:bg-primary-dark transition">
+                Call (610) 941-9000
               </a>
               <Link href="/" className="inline-flex items-center justify-center bg-white/10 text-white font-bold px-6 py-3 rounded-lg hover:bg-white/20 transition border border-white/20">
                 Back to Home
@@ -371,12 +371,12 @@ function Header() {
       <div className="max-w-2xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Link href="/">
-            <Image src="/logoheader.png" alt="Car Candy" width={140} height={80} className="h-10 w-auto" />
+            <Image src="/logoheader.png" alt="DR Detail" width={140} height={80} className="h-10 w-auto" />
           </Link>
           <span className="hidden sm:block text-gray-500 text-xs border-l border-white/10 pl-3">Auto Detailing in Delaware County, PA</span>
         </div>
-        <a href="tel:+16107260151" className="text-gray-400 hover:text-primary transition text-sm hidden sm:block">
-          (610) 726-0151
+        <a href="tel:+16109419000" className="text-gray-400 hover:text-primary transition text-sm hidden sm:block">
+          (610) 941-9000
         </a>
       </div>
     </div>

@@ -70,12 +70,12 @@ export default function QuoteForm() {
           </div>
           <h3 className="text-xl font-bold text-white mb-3">Request Received — We&apos;ll Be in Touch Shortly</h3>
           <p className="text-gray-400 text-sm text-center max-w-md mb-6">
-            Thanks for contacting Car Candy Auto Detailing. A member of our team will reach out shortly to confirm your service details and provide accurate pricing for your vehicle in Delaware County, PA.
+            Thanks for contacting DR Detail. A member of our team will reach out shortly to confirm your service details and provide accurate pricing for your vehicle in Montgomery County, PA.
           </p>
           <div className="text-sm text-gray-400 text-center space-y-1">
             <p>
               Need immediate assistance? Call us at{" "}
-              <a href="tel:+16107260151" className="text-primary font-semibold hover:text-primary-light transition">(610) 726-0151</a>
+              <a href="tel:+16109419000" className="text-primary font-semibold hover:text-primary-light transition">(610) 941-9000</a>
             </p>
             <p>
               Want to skip the wait?{" "}

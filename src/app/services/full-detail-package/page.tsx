@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Check, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Complete Detail Package | Car Candy Auto Detailing",
-  description: "Complete detail package — interior + exterior detailing bundled for a full vehicle refresh. Starting at $180. Delaware County, PA.",
+  title: "Complete Detail Package | DR Detail",
+  description: "Complete detail package — interior + exterior detailing bundled for a full vehicle refresh. Starting at $180. Montgomery County, PA.",
 };
 
 export default function FullDetailPackagePage() {
@@ -70,8 +70,8 @@ export default function FullDetailPackagePage() {
           <Link href="/get-quote" className="inline-flex items-center justify-center bg-primary text-white font-bold px-8 py-4 rounded-lg hover:bg-primary-dark transition text-lg">
             Get Your Exact Quote
           </Link>
-          <a href="tel:+16107260151" className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur text-white font-bold px-8 py-4 rounded-lg hover:bg-white/20 transition border border-white/20 text-lg">
-            <Phone className="w-5 h-5" /> Call (610) 726-0151
+          <a href="tel:+16109419000" className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur text-white font-bold px-8 py-4 rounded-lg hover:bg-white/20 transition border border-white/20 text-lg">
+            <Phone className="w-5 h-5" /> Call (610) 941-9000
           </a>
         </div>
 

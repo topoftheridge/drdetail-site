@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Check, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Interior Detailing | Car Candy Auto Detailing",
-  description: "Professional interior auto detailing in Delaware County, PA. Full interior clean and restore — vacuuming, shampooing, leather conditioning, odor removal. Starting at $90.",
+  title: "Interior Detailing | DR Detail",
+  description: "Professional interior auto detailing in Montgomery County, PA. Full interior clean and restore — vacuuming, shampooing, leather conditioning, odor removal. Starting at $90.",
 };
 
 export default function InteriorDetailingPage() {
@@ -52,8 +52,8 @@ export default function InteriorDetailingPage() {
           <Link href="/get-quote" className="inline-flex items-center justify-center bg-primary text-white font-bold px-8 py-4 rounded-lg hover:bg-primary-dark transition text-lg">
             Get Your Free Quote
           </Link>
-          <a href="tel:+16107260151" className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur text-white font-bold px-8 py-4 rounded-lg hover:bg-white/20 transition border border-white/20 text-lg">
-            <Phone className="w-5 h-5" /> Call (610) 726-0151
+          <a href="tel:+16109419000" className="inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur text-white font-bold px-8 py-4 rounded-lg hover:bg-white/20 transition border border-white/20 text-lg">
+            <Phone className="w-5 h-5" /> Call (610) 941-9000
           </a>
         </div>
 

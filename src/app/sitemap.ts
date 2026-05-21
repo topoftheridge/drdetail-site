@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { locations } from "@/data/locations";
 
-const BASE_URL = "https://carcandy-site.vercel.app";
+const BASE_URL = "https://www.drdetailpa.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [

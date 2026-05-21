@@ -9,20 +9,20 @@ export default function HomePage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Car Candy Auto Detailing",
-    description: "Professional auto detailing services in Aston, PA and Delaware County. Interior & exterior detailing, waxing, paint correction.",
-    url: "https://carcandy-site.vercel.app",
-    telephone: "+16107260151",
-    email: "carcandyautodetailing@gmail.com",
+    name: "DR Detail",
+    description: "Professional auto detailing services in Conshohocken, PA and Montgomery County. Auto detailing, paint correction, ceramic coating, car washing, and window tinting.",
+    url: "https://www.drdetailpa.com",
+    telephone: "+16109419000",
+    email: "info@drdetailpa.com",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Aston",
+      addressLocality: "Conshohocken",
       addressRegion: "PA",
       addressCountry: "US",
     },
     areaServed: {
       "@type": "GeoCircle",
-      geoMidpoint: { "@type": "GeoCoordinates", latitude: 39.8654, longitude: -75.4360 },
+      geoMidpoint: { "@type": "GeoCoordinates", latitude: 40.0776, longitude: -75.3013 },
       geoRadius: "25000",
     },
     priceRange: "$$",
@@ -35,8 +35,8 @@ export default function HomePage() {
 
       <HeroBackground>
         <Hero
-          title="Car Candy Auto Detailing"
-          subtitle="Car detailing in Delaware County, PA including interior cleaning, exterior detailing, and full-service packages to keep your vehicle looking its best."
+          title="DR Detail"
+          subtitle="Professional auto detailing in Conshohocken, PA — auto detailing, paint correction, ceramic coating, car washing, and window tinting to keep your vehicle looking its best."
         />
         <div className="relative z-10 px-4 sm:px-6 lg:px-8 pb-12 -mt-16">
           <QuoteForm />
@@ -46,7 +46,7 @@ export default function HomePage() {
       {/* Why Choose Us */}
       <section className="py-20 lg:py-32 bg-dark-light">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-primary font-semibold text-sm tracking-widest uppercase mb-3">Why Car Candy</p>
+          <p className="text-primary font-semibold text-sm tracking-widest uppercase mb-3">Why DR Detail</p>
           <h2 className="text-3xl lg:text-5xl font-bold text-white leading-tight max-w-2xl mb-16">
             Not your average<br />car wash.
           </h2>
@@ -102,41 +102,41 @@ export default function HomePage() {
             Our <span className="text-primary">Services</span>
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            From deep interior cleaning to full exterior restoration, we offer comprehensive detailing packages.
+            From deep interior cleaning to paint correction and ceramic coating, we offer comprehensive detailing packages.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* Interior Detailing */}
+            {/* Auto Detailing */}
             <Link href="/services/interior-detailing" className="group relative rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition min-h-[320px] flex flex-col justify-center">
               <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/interiorcard1.jpg')" }} />
               <div className="absolute inset-0 bg-black/60" />
               <div className="relative p-8 flex flex-col items-start gap-3">
-                <h3 className="text-3xl lg:text-4xl font-bold text-white leading-tight">Interior Detailing</h3>
+                <h3 className="text-3xl lg:text-4xl font-bold text-white leading-tight">Auto Detailing</h3>
                 <p className="text-primary font-bold text-lg drop-shadow-[0_0_14px_rgba(236,72,153,0.7)]">Starting at $90</p>
-                <p className="text-gray-200 text-base leading-relaxed">Deep cleaning, stain removal, dashboard &amp; console detailing, upholstery treatment.</p>
+                <p className="text-gray-200 text-base leading-relaxed">Full interior & exterior detailing — deep cleaning, stain removal, hand wash, wax, and more.</p>
                 <span className="text-primary text-base font-medium group-hover:underline mt-1">Learn More →</span>
               </div>
             </Link>
 
-            {/* Exterior Detailing */}
-            <Link href="/services/exterior-detailing" className="group relative rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition min-h-[320px] flex flex-col justify-center">
-              <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/exteriorcard1.jpg')" }} />
-              <div className="absolute inset-0 bg-black/60" />
-              <div className="relative p-8 flex flex-col items-start gap-3">
-                <h3 className="text-3xl lg:text-4xl font-bold text-white leading-tight">Exterior Detailing</h3>
-                <p className="text-primary font-bold text-lg drop-shadow-[0_0_14px_rgba(236,72,153,0.7)]">Starting at $90</p>
-                <p className="text-gray-200 text-base leading-relaxed">Hand wash, paint decontamination, tire &amp; wheel cleaning, trim restoration.</p>
-                <span className="text-primary text-base font-medium group-hover:underline mt-1">Learn More →</span>
-              </div>
-            </Link>
-
-            {/* Paint Enhancement & Protection */}
+            {/* Paint Correction */}
             <Link href="/services/paint-protection" className="group relative rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition min-h-[320px] flex flex-col justify-center">
               <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/Paintcard1.jpg')" }} />
               <div className="absolute inset-0 bg-black/60" />
               <div className="relative p-8 flex flex-col items-start gap-3">
-                <h3 className="text-2xl lg:text-3xl font-bold text-white leading-tight">Paint Enhancement &amp;&nbsp;Protection</h3>
-                <p className="text-primary font-bold text-lg drop-shadow-[0_0_14px_rgba(236,72,153,0.7)]">From $30</p>
-                <p className="text-gray-200 text-base leading-relaxed">Full wax, compound buff &amp; wax, engine detail, floormat replacement.</p>
+                <h3 className="text-3xl lg:text-4xl font-bold text-white leading-tight">Paint Correction</h3>
+                <p className="text-primary font-bold text-lg drop-shadow-[0_0_14px_rgba(236,72,153,0.7)]">Custom Quote</p>
+                <p className="text-gray-200 text-base leading-relaxed">Remove swirls, scratches, and oxidation. Restore your paint to a flawless, mirror-like finish.</p>
+                <span className="text-primary text-base font-medium group-hover:underline mt-1">Learn More →</span>
+              </div>
+            </Link>
+
+            {/* Ceramic Coating & Window Tinting */}
+            <Link href="/services/exterior-detailing" className="group relative rounded-xl overflow-hidden border border-white/5 hover:border-primary/50 transition min-h-[320px] flex flex-col justify-center">
+              <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/exteriorcard1.jpg')" }} />
+              <div className="absolute inset-0 bg-black/60" />
+              <div className="relative p-8 flex flex-col items-start gap-3">
+                <h3 className="text-2xl lg:text-3xl font-bold text-white leading-tight">Ceramic Coating &amp;&nbsp;Window Tinting</h3>
+                <p className="text-primary font-bold text-lg drop-shadow-[0_0_14px_rgba(236,72,153,0.7)]">Custom Quote</p>
+                <p className="text-gray-200 text-base leading-relaxed">Long-lasting paint protection and professional window tinting for comfort and style.</p>
                 <span className="text-primary text-base font-medium group-hover:underline mt-1">Learn More →</span>
               </div>
             </Link>
@@ -166,7 +166,7 @@ export default function HomePage() {
             Areas We <span className="text-primary">Serve</span>
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Proudly serving communities across Delaware County, Pennsylvania.
+            Proudly serving communities across Montgomery County, Pennsylvania.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             {locations.map((loc) => (
@@ -186,14 +186,14 @@ export default function HomePage() {
       <section className="py-16 lg:py-24 bg-dark">
         <div className="max-w-2xl mx-auto text-center px-4">
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-            Ready for the <span className="text-primary">Candy Treatment</span>?
+            Ready for the <span className="text-primary">DR Detail Treatment</span>?
           </h2>
           <p className="text-gray-400 mb-6">
             Call us today or fill out the form above for a free, no-obligation quote.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="tel:+16107260151" className="inline-flex items-center justify-center bg-primary text-white font-bold px-8 py-4 rounded-lg hover:bg-primary-dark transition text-lg">
-              Call (610) 726-0151
+            <a href="tel:+16109419000" className="inline-flex items-center justify-center bg-primary text-white font-bold px-8 py-4 rounded-lg hover:bg-primary-dark transition text-lg">
+              Call (610) 941-9000
             </a>
             <span className="text-gray-500">or</span>
             <Link href="/get-quote" className="inline-flex items-center justify-center bg-white/10 text-white font-bold px-8 py-4 rounded-lg hover:bg-white/20 transition border border-white/20 text-lg">
@@ -201,7 +201,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="mt-8 text-sm text-gray-500">
-            <p>Aston, PA (Delaware County) &nbsp;|&nbsp; Mon–Sun: 8 AM – 6 PM</p>
+            <p>Conshohocken, PA (Montgomery County) &nbsp;|&nbsp; Mon–Sun: 8 AM – 6 PM</p>
           </div>
         </div>
       </section>

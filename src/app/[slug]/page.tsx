@@ -28,13 +28,13 @@ export default async function LocationPage({ params }: Props) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Car Candy Auto Detailing",
+    name: "DR Detail",
     description: `Professional auto detailing services in ${location.name}, PA.`,
-    telephone: "+16107260151",
-    email: "carcandyautodetailing@gmail.com",
+    telephone: "+16109419000",
+    email: "info@drdetailpa.com",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Aston",
+      addressLocality: "Conshohocken",
       addressRegion: "PA",
       addressCountry: "US",
     },
@@ -55,7 +55,7 @@ export default async function LocationPage({ params }: Props) {
         </div>
         <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl lg:text-5xl font-bold text-white mb-6">
-            Auto Detailing in <span className="text-primary">{location.name}</span> | Car Candy Detailing
+            Auto Detailing in <span className="text-primary">{location.name}</span> | DR Detail Detailing
           </h1>
 
           <p className="text-gray-300 leading-relaxed mb-8 text-lg">{location.description}</p>
@@ -88,8 +88,8 @@ export default async function LocationPage({ params }: Props) {
 
           <div className="mt-12 p-6 rounded-xl bg-dark-lighter border border-white/5">
             <p className="text-gray-400 text-sm">
-              Serving {location.name} and all of Delaware County, PA. Call{" "}
-              <a href="tel:+16107260151" className="text-primary font-semibold">(610) 726-0151</a> to schedule your detail today.
+              Serving {location.name} and all of Montgomery County, PA. Call{" "}
+              <a href="tel:+16109419000" className="text-primary font-semibold">(610) 941-9000</a> to schedule your detail today.
             </p>
           </div>
         </div>
