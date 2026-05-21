@@ -122,7 +122,7 @@ export default function HomePage() {
 
             {/* Paint Correction */}
             <Link href="/services/paint-protection" className="group relative rounded-xl overflow-hidden border border-gray-200 hover:border-primary/50 transition min-h-[320px] flex flex-col justify-center shadow-sm">
-              <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/Paintcard1.jpg')" }} />
+              <div className="absolute inset-0" style={{ backgroundImage: "url('/Paintcard1.jpg')", backgroundSize: "130%", backgroundPosition: "60% 40%" }} />
               <div className="absolute inset-0 bg-black/60" />
               <div className="relative p-8 flex flex-col items-start gap-3">
                 <h3 className="text-3xl lg:text-4xl font-bold text-white leading-tight">Paint Correction</h3>
