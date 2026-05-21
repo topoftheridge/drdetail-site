@@ -16,7 +16,7 @@ export default function PaintProtectionPage() {
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">Paint Enhancement &amp; Protection</h1>
-          <p className="text-primary font-bold text-xl drop-shadow-[0_0_14px_rgba(236,72,153,0.7)]">From $30</p>
+          <p className="text-primary font-bold text-xl drop-shadow-[0_0_14px_rgba(139,26,26,0.7)]">From $30</p>
           <p className="text-gray-400 mt-2">Add these to any detail or book standalone.</p>
         </div>
 

@@ -16,8 +16,10 @@ export default function HomePage() {
     email: "info@drdetailpa.com",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "65 Poplar St",
       addressLocality: "Conshohocken",
       addressRegion: "PA",
+      postalCode: "19428",
       addressCountry: "US",
     },
     areaServed: {
@@ -111,7 +113,7 @@ export default function HomePage() {
               <div className="absolute inset-0 bg-black/60" />
               <div className="relative p-8 flex flex-col items-start gap-3">
                 <h3 className="text-3xl lg:text-4xl font-bold text-white leading-tight">Auto Detailing</h3>
-                <p className="text-primary font-bold text-lg drop-shadow-[0_0_14px_rgba(236,72,153,0.7)]">Starting at $90</p>
+                <p className="text-primary font-bold text-lg drop-shadow-[0_0_14px_rgba(139,26,26,0.7)]">Starting at $90</p>
                 <p className="text-gray-200 text-base leading-relaxed">Full interior & exterior detailing — deep cleaning, stain removal, hand wash, wax, and more.</p>
                 <span className="text-primary text-base font-medium group-hover:underline mt-1">Learn More →</span>
               </div>
@@ -123,7 +125,7 @@ export default function HomePage() {
               <div className="absolute inset-0 bg-black/60" />
               <div className="relative p-8 flex flex-col items-start gap-3">
                 <h3 className="text-3xl lg:text-4xl font-bold text-white leading-tight">Paint Correction</h3>
-                <p className="text-primary font-bold text-lg drop-shadow-[0_0_14px_rgba(236,72,153,0.7)]">Custom Quote</p>
+                <p className="text-primary font-bold text-lg drop-shadow-[0_0_14px_rgba(139,26,26,0.7)]">Custom Quote</p>
                 <p className="text-gray-200 text-base leading-relaxed">Remove swirls, scratches, and oxidation. Restore your paint to a flawless, mirror-like finish.</p>
                 <span className="text-primary text-base font-medium group-hover:underline mt-1">Learn More →</span>
               </div>
@@ -135,7 +137,7 @@ export default function HomePage() {
               <div className="absolute inset-0 bg-black/60" />
               <div className="relative p-8 flex flex-col items-start gap-3">
                 <h3 className="text-2xl lg:text-3xl font-bold text-white leading-tight">Ceramic Coating &amp;&nbsp;Window Tinting</h3>
-                <p className="text-primary font-bold text-lg drop-shadow-[0_0_14px_rgba(236,72,153,0.7)]">Custom Quote</p>
+                <p className="text-primary font-bold text-lg drop-shadow-[0_0_14px_rgba(139,26,26,0.7)]">Custom Quote</p>
                 <p className="text-gray-200 text-base leading-relaxed">Long-lasting paint protection and professional window tinting for comfort and style.</p>
                 <span className="text-primary text-base font-medium group-hover:underline mt-1">Learn More →</span>
               </div>
@@ -148,7 +150,7 @@ export default function HomePage() {
               <div>
                 <h3 className="text-2xl lg:text-3xl font-bold text-white mb-2">Complete Detail Package</h3>
                 <p className="text-gray-300 text-base lg:text-lg leading-relaxed mb-3">Interior + Exterior detailing bundled together for a full vehicle refresh.</p>
-                <p className="text-primary font-bold text-xl drop-shadow-[0_0_14px_rgba(236,72,153,0.7)]">Starting at $180</p>
+                <p className="text-primary font-bold text-xl drop-shadow-[0_0_14px_rgba(139,26,26,0.7)]">Starting at $180</p>
                 <p className="text-gray-400 text-sm mt-1">Final pricing depends on vehicle size and condition.</p>
               </div>
               <div className="shrink-0">

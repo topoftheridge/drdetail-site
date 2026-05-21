@@ -15,7 +15,7 @@ export default function Footer() {
             </div>
             <p className="text-sm mb-4">Professional auto detailing services in Conshohocken, PA and Montgomery County. We bring your vehicle back to life.</p>
             <div className="space-y-2 text-sm">
-              <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-primary" /> Conshohocken, PA</div>
+              <div className="flex items-start gap-2"><MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" /> <span>65 Poplar St<br />Conshohocken, PA 19428</span></div>
               <div className="flex items-center gap-2"><Clock className="w-4 h-4 text-primary" /> Mon–Sun: 8 AM – 6 PM</div>
               <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary" /> <a href="tel:+16109419000" className="hover:text-primary transition">(610) 941-9000</a></div>
               <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary" /> <a href="mailto:info@drdetailpa.com" className="hover:text-primary transition">info@drdetailpa.com</a></div>
